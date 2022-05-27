@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Berkshire+Swash&family=Fira+Sans+Condensed:ital,wght@0,300;1,700;1,900&family=Lilita+One&family=Oswald:wght@500&family=Secular+One&family=Spline+Sans+Mono:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/*Menu*/
+
+.header {
+    width: 100%;
+    position: fixed;
+}
+.menu {
+    background-color: #ff6f09;
+    text-align: center;
+   
+    
+}
+.menu ul li {
+    display: inline-block;
+    
+
+}
+.menu ul li a {
+    display: block;
+    color: #e1e3eb;
+    padding: 30px 10px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    
+    
+
+}
+
+a{
+    margin-top: 30px;
+}
+
+
+
+.logo,img{
+    width: 150px;
+    height: 40px;
+    margin-left: 130px;
+    margin-top: -50px;
+
+
+
+}
+
+/*Container*/
+
+.container{
+    background-color: rgba(10, 10, 93, 0.927);
+    height:500px;
+    width: 100%;
+    letter-spacing: 3px;
+    
+}
+
+.container,.content-top{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+    
+}
+h2{
+    font-weight: lighter;
+    color: #67686b;
+}
+
+#image{
+    
+    width: 500px;
+    height: 300px;
+    display: block;
+    float: left;
+    margin-top: 100px;
+}
+
+.text{
+    width: 42%;
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+    margin-top: 140px;
+    height: 200px;
+}
+
+.text,p{
+    text-align: justify;
+    text-justify: inter-word;
+    color: #67686b;
+}
+
+/*Sub-Content*/
+
+
+.services{
+    background-color: #ded7d7;
+    width: 100%;
+    height: 500px;
+
+}
+
+.respon{
+    background-color: rgb(0, 0, 0);
+    padding-left: 200px;
+    padding-top: 80px;
+}
+
+
+
+.img-icons,.img1{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 250px;
+}
+
+.img-icons2,.img2{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 250px;
+}
+
+.img-icons3,.img3{
+    width: 210px;
+    height: 150px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 250px;
+}
+
+
+.text-img1{
+
+    color: white;
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+    margin-top: -200px;
+
+}
+
+.text-img2{
+    color: white;
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+}
+
+
+.text-img3{
+    color: white;
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+}
+
+
+h3{
+    color: rgb(5, 221, 236);
+    font-size: 40px;
+    letter-spacing:2px;
+    font-family: 'Anton', sans-serif;
+    margin-left: -80px;
+    margin-right: -80px;
+
+}
+
+h4{
+    font-family: 'Anton', sans-serif;
+    letter-spacing:2px;
+}
+/*Portfolio*/
+
+
+.portfolio{
+    background-color: #ded7d7;
+    width: 100%;
+    justify-content: space-around;
+}
+.h1-port{
+    padding-top: 50px;
+}
+.img-port1{
+    width: 450px;
+    height: 350px;
+    display: inline-block;
+    margin-top: -40px;
+}
+
+.img-port2{
+    width: 500px;
+    height: 350px;
+    display: inline-block;
+}
+
+
+.img-port3{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+}
+
+.clients,.h2{
+    padding-top:40px ;
+}
+.h1-c{
+    padding-top: 40px;
+}
+
+.img-port1,.img1-p{
+    width: 300px;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 150px;
+   
+}
+
+.img-port2,.img2-p{
+    width: 300px;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 150px;
+}
+
+.img-port3,.img3-p{
+    width: 300px;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 150px;
+}
+
+.clients{
+    width: 100%;
+    background-color: #ded7d7 ;
+}
+
+.img-cli1,.img1-c{
+    width: 200px;
+    height: 150px;
+    margin-top: 40px;
+    margin-right: 150px;
+    display: inline-block;
+   
+}
+
+.img-cli2,.img2-c{
+    width: 200px;
+    height: 150px;
+    margin-top: 40px;
+    margin-right: 150px;
+    display: inline-block;
+   
+}
+
+.img-cli3,.img3-c{
+    width: 200px;
+    height: 150px;
+    margin-top: 40px;
+    margin-right: 150px;
+    display: inline-block;
+   
+}
+
+
+.img-cli4,.img4-c{
+    width: 200px;
+    height: 150px;
+    margin-top: 40px;
+    margin-right: 150px;
+    display: inline-block;
+   
+}
+
+.about-us,.h2{
+    padding-top: 40px;
+}
+
+.about-us{
+    width: 100%;
+    background-color: rgb(23, 0, 76);
+    height: 500px;
+}
+
+.text-content{
+    width: 40%;
+    display: inline-block;
+    margin-top: 50px;
+    float: left;
+    margin-left: 90px;
+}
+
+.graph{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+}
