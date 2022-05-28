@@ -13,10 +13,23 @@
 
 div#interface{
     width: 100%;
-    background-color: #ded7d7;
+    background-color: #fff;
+    display: block;
 }
 
 /*Menu Flutuando fixo*/
+
+
+nav#menu {
+    background-color: #ff6f09;
+    width: 100%;
+    height: 120px;
+    padding-top: 0px;
+    top: 0%;
+    text-align: center;
+    position: fixed;
+    
+}
 
 nav#menu img{
     display: block;
@@ -25,17 +38,7 @@ nav#menu img{
     float: left;
 }
 
-nav#menu {
-    background-color: #ff6f09;
-    width: 100%;
-    margin-top: -20px;
-    margin-bottom: -22px;
-    border: 3px solid black;
-    margin: auto;
-    text-align: center;
-}
-
-#menu ul {
+nav#menu ul {
     text-transform: uppercase;
     padding: 30px 10px;
     font-size: larger;
@@ -43,7 +46,7 @@ nav#menu {
 }
 
 /* alinahndo os icones do menu */
-#menu li {
+nav#menu li {
     display: inline-block;
     padding: 10px;
 }
@@ -51,18 +54,17 @@ nav#menu {
 
 /*retirando uderline dos links */
 
-#menu li a {
+nav#menu li a {
     text-decoration: none;
     color: #fff;
 }
 
-#menu li:hover {
+nav#menu li:hover {
     background-color: #d06c20;
     transition: 0.8s;
 }
 
 /*Container - Content */
-
 
 .container {
     text-align: center;
@@ -70,7 +72,8 @@ nav#menu {
     height: 600px;
     width: 100%;
     letter-spacing: 3px;
-    border: 3px solid black;
+    
+    border: 1px solid #CCC;
 }
 
 .content-top {
@@ -87,7 +90,7 @@ nav#menu {
     text-align: center;
     width: 100%;
     height: 700px;
-    border: 3px solid black;
+    border: 1px solid #CCC;
 }
 
 ul#album-subcont {
@@ -102,7 +105,7 @@ ul#album-subcont {
     height: 250px;
     display: inline-flex;
     margin-left: 100px;
-    border: 5px solid #fff;
+    border: 1px solid #CCC;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
 
 }
@@ -131,6 +134,7 @@ hgroup h3 {
     font-family: 'Anton', sans-serif;
     margin-top: auto;
     margin-left: -90px;
+    text-align: center;
 }
 
 hgroup.subcont p {
@@ -138,6 +142,7 @@ hgroup.subcont p {
     letter-spacing: 2px;
     margin-top: auto;
     margin-left: -90px;
+    text-align: center;
 }
 
 hgroup.subconth {
@@ -147,16 +152,13 @@ hgroup.subconth {
 
 /*Portfolio*/
 
-
 #portfolio {
     background-color: #ed0909;
     text-align: center;
     width: 100%;
     height: 700px;
     justify-content: space-around;
-    margin-top: 0;
-    border: 3px solid black;
-
+    border: 1px solid #CCC;
 }
 
 .album li#foto04 {
@@ -186,39 +188,11 @@ hgroup.subconth {
 /* Clients */
 
 div#clients{
-    border: 3px solid black;
     text-align: center;
-}
-
-.img-port1,
-.img1-p {
-    width: 300px;
-    height: 250px;
-    margin-top: 40px;
-    margin-right: 150px;
-
-}
-
-.img-port2,
-.img2-p {
-    width: 300px;
-    height: 250px;
-    margin-top: 40px;
-    margin-right: 150px;
-}
-
-.img-port3,
-.img3-p {
-    width: 300px;
-    height: 250px;
-    margin-top: 40px;
-    margin-right: 150px;
-}
-
-#clients {
-    width: 100%;
-    height: 700px;
-    background-color: #ded7d7;
+    background-color: aquamarine;
+    border: 0.5px solid #CCC;
+    width: auto;
+    height: 500px;
 }
 
 .img-cli1,
@@ -228,7 +202,6 @@ div#clients{
     margin-top: 40px;
     margin-right: 150px;
     display: inline-block;
-
 }
 
 .img-cli2,
@@ -264,15 +237,12 @@ div#clients{
 
 /* About Us */
 
-
 #about-us {
     text-align: center;
     width: 100%;
     height: 700px;
     background-color: rgba(10, 10, 93, 0.927);
-    margin: 0px 0px;
-    border: 3px solid black;
-
+    border: 1px solid black;
 }
 
 hgroup#menu-sobre {
