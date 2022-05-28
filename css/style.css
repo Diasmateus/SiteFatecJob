@@ -1,18 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Berkshire+Swash&family=Fira+Sans+Condensed:ital,wght@0,300;1,700;1,900&family=Lilita+One&family=Oswald:wght@500&family=Secular+One&family=Spline+Sans+Mono:wght@400;600&display=swap');
 
-/*Menu*/
 
+/* Formatações gerais */
 * {
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Todos hgroup com class titulo1 ficarão centralizados*/
+* hgroup.titulo1 {
     text-align: center;
 }
 
+div#interface{
+    width: 100%;
+    background-color: #ded7d7;
+}
 
-#menu {
+/*Menu Flutuando fixo*/
+
+nav#menu img{
+    display: block;
+    margin: 20px 50px;
+    padding: auto;
+    float: left;
+}
+
+nav#menu {
     background-color: #ff6f09;
     width: 100%;
-    position: fixed;
-    margin-top: -30px;
+    margin-top: -20px;
+    margin-bottom: -22px;
+    border: 3px solid black;
+    margin: auto;
+    text-align: center;
 }
 
 #menu ul {
@@ -41,15 +61,16 @@
     transition: 0.8s;
 }
 
-/*Container*/
+/*Container - Content */
 
 
 .container {
+    text-align: center;
     background-color: rgba(10, 10, 93, 0.927);
-    height: 500px;
+    height: 600px;
     width: 100%;
     letter-spacing: 3px;
-
+    border: 3px solid black;
 }
 
 .content-top {
@@ -57,51 +78,25 @@
     width: 40%;
     float: right;
     margin-right: 200px;
-    margin-top: 140px;
 }
 
+/* Nosso serviços */
 
-/* Formatação de imagens */
-
-.logo,
-img {
-    width: 150px;
-    height: 40px;
-    margin-left: 130px;
-    margin-top: -50px;
-}
-
-
-#image {
-
-    width: 500px;
-    height: 300px;
-    display: block;
-    float: left;
-    margin-top: 100px;
-}
-
-/*Sub-Content*/
-
-
-.subcont {
+.nosso-servico {
+    background-color: #fff;
+    text-align: center;
     width: 100%;
-    height: 1000px;
+    height: 700px;
+    border: 3px solid black;
 }
-
 
 ul#album-subcont {
-    border: 1px solid black;
     width: 100%;
     height: auto;
     /*margem na esqueda e 0 para todas as ouitras*/
-    overflow: hidden;
     list-style: none;
-
 }
 
-
-/* Configuração de conteiner para as fotos */
 .album li {
     width: 350px;
     height: 250px;
@@ -112,7 +107,7 @@ ul#album-subcont {
 
 }
 
-/* Adicionando cada foto ao seu container */
+
 .album li#foto01 {
     background: url('/img/services/responsive.png') no-repeat;
 }
@@ -124,40 +119,6 @@ ul#album-subcont {
 .album li#foto03 {
     background: url('/img/services/free.png') no-repeat;
 }
-
-.album li#foto04 {
-    background: url('/img/portfolio/img1.jpg') no-repeat;
-}
-
-.album li#foto05 {
-    background: url('/img/portfolio/img2.jpg') no-repeat;
-}
-
-.album li#foto06 {
-    background: url('/img/portfolio/img3.jpg') no-repeat;
-}
-
-.album li#foto07 {
-    background: url('/img/portfolio/img4.jpg') no-repeat;
-}
-
-.album li#foto08 {
-    background: url('/img/portfolio/img5.jpg') no-repeat;
-}
-
-.album li#foto09 {
-    background: url('/img/portfolio/img6.jpg') no-repeat;
-}
-
-/*.album li span{
-     Esconde a legenda 
-    opacity: 0;
-}
-
-.album li span:hover{
-     Mostra a legenda ao passar o mouse por cima 
-    opacity: 1;
-}*/
 
 .headear{
     border: 1px solid black;
@@ -187,20 +148,46 @@ hgroup.subconth {
 /*Portfolio*/
 
 
-.portfolio {
-    background-color: #ded7d7;
+#portfolio {
+    background-color: #ed0909;
+    text-align: center;
     width: 100%;
-    height: 1000px;
+    height: 700px;
     justify-content: space-around;
+    margin-top: 0;
+    border: 3px solid black;
+
 }
 
-#clients,
-.h2 {
-    padding-top: 40px;
+.album li#foto04 {
+    background: url('/img/portfolio/img1.jpg') no-repeat;
 }
 
-.h1-c {
-    padding-top: 40px;
+.album li#foto05 {
+    background: url('/img/portfolio/img2.jpg') no-repeat;
+}
+
+.album li#foto06 {
+    background: url('/img/portfolio/img3.jpg') no-repeat;
+}
+
+.album li#foto07 {
+    background: url('/img/portfolio/img4.jpg') no-repeat;
+}
+
+.album li#foto08 {
+    background: url('/img/portfolio/img5.jpg') no-repeat;
+}
+
+.album li#foto09 {
+    background: url('/img/portfolio/img6.jpg') no-repeat;
+}
+
+/* Clients */
+
+div#clients{
+    border: 3px solid black;
+    text-align: center;
 }
 
 .img-port1,
@@ -279,10 +266,13 @@ hgroup.subconth {
 
 
 #about-us {
+    text-align: center;
     width: 100%;
     height: 700px;
     background-color: rgba(10, 10, 93, 0.927);
     margin: 0px 0px;
+    border: 3px solid black;
+
 }
 
 hgroup#menu-sobre {
@@ -302,7 +292,7 @@ hgroup#menu-sobre {
     width: 400px;
     height: 400px;
     margin: 0px auto;
-    margin-top: 100px;
+    margin-top: 10  0px;
 }
 
 /*Footer - Rodapé*/
