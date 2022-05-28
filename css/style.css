@@ -340,7 +340,6 @@ h4 {
 }
 
 .art-rodape {
-    border: 1px solid white;
     display: block;
     width: 33.33%;
     margin: 50px;
@@ -349,7 +348,7 @@ h4 {
 }
 
 article {
-    /* Apenas para centralizar o form na página */
+    /* Apenas para centralizar o texto na página */
     margin: 0 auto;
     width: 400px;
     /* Para ver as bordas do formulário */
