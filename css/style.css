@@ -19,30 +19,22 @@ div#interface{
 
 /*Menu Flutuando fixo*/
 
-
 nav#menu {
     background-color: #ff6f09;
     width: 100%;
-    height: 120px;
-    padding-top: 0px;
     top: 0%;
-    text-align: center;
     position: fixed;
-    
-}
-
-nav#menu img{
-    display: block;
-    margin: 20px 50px;
-    padding: auto;
-    float: left;
+    box-shadow: 1px 3px rgba(0, 0, 0, .4);
 }
 
 nav#menu ul {
+    display: inline-block;
     text-transform: uppercase;
-    padding: 30px 10px;
     font-size: larger;
     font-weight: bolder;
+    top: 0;
+    left: 550px ;
+    position: absolute;
 }
 
 /* alinahndo os icones do menu */
@@ -72,7 +64,7 @@ nav#menu li:hover {
     height: 600px;
     width: 100%;
     letter-spacing: 3px;
-    
+    margin-top: 85px;
     border: 1px solid #CCC;
 }
 
@@ -189,7 +181,7 @@ hgroup.subconth {
 
 div#clients{
     text-align: center;
-    background-color: aquamarine;
+    background-color: #fff;
     border: 0.5px solid #CCC;
     width: auto;
     height: 500px;
