@@ -275,30 +275,34 @@ hgroup.subconth {
 
 }
 
-#about-us,
-.h2 {
-    padding-top: 40px;
-}
+/* About Us */
+
 
 #about-us {
     width: 100%;
+    height: 700px;
     background-color: rgba(10, 10, 93, 0.927);
-    height: 500px;
+    margin: 0px 0px;
 }
 
-.text-content {
-    width: 40%;
-    display: inline-block;
-    margin-top: 50px;
+hgroup#menu-sobre {
+    display: block;
+}
+
+#text-content {
+    display: block;
+    width: 50%;
     float: left;
-    margin-left: 90px;
+    margin: 0px auto;
+    margin-top: 50px;
 }
 
-.graph {
-    display: inline-block;
+#text-content-graph {
+    display: block;
     width: 400px;
     height: 400px;
-    
+    margin: 0px auto;
+    margin-top: 100px;
 }
 
 /*Footer - Rodapé*/
