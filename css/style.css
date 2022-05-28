@@ -2,7 +2,7 @@
 
 /*Menu*/
 
-*{
+* {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
@@ -23,7 +23,7 @@
 }
 
 /* alinahndo os icones do menu */
-#menu li{
+#menu li {
     display: inline-block;
     padding: 10px;
 }
@@ -31,7 +31,7 @@
 
 /*retirando uderline dos links */
 
-#menu li a{
+#menu li a {
     text-decoration: none;
     color: #fff;
 }
@@ -84,53 +84,83 @@ img {
 /*Sub-Content*/
 
 
-.subcont{
+.subcont {
     width: 100%;
     height: 1000px;
 }
 
 
-ul#album-subcont{
+ul#album-subcont {
     border: 1px solid black;
     width: 100%;
     height: auto;
     /*margem na esqueda e 0 para todas as ouitras*/
     overflow: hidden;
     list-style: none;
-    
+
 }
 
 
 /* Configuração de conteiner para as fotos */
-.album-subcont li{
+.album li {
     width: 350px;
     height: 250px;
     display: inline-flex;
     margin-left: 100px;
     border: 5px solid #fff;
-    box-shadow:1px 1px 3px rgba(0, 0, 0, .4);
-    
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
+
 }
 
 /* Adicionando cada foto ao seu container */
-.album-subcont li#foto01{
+.album li#foto01 {
     background: url('/img/services/responsive.png') no-repeat;
 }
-.album-subcont li#foto02{
+
+.album li#foto02 {
     background: url('/img/services/bs3.png') no-repeat;
 }
-.album-subcont li#foto03{
+
+.album li#foto03 {
     background: url('/img/services/free.png') no-repeat;
 }
 
-.album-subcont li span{
-    /* Esconde a legenda */
+.album li#foto04 {
+    background: url('/img/portfolio/img1.jpg') no-repeat;
+}
+
+.album li#foto05 {
+    background: url('/img/portfolio/img2.jpg') no-repeat;
+}
+
+.album li#foto06 {
+    background: url('/img/portfolio/img3.jpg') no-repeat;
+}
+
+.album li#foto07 {
+    background: url('/img/portfolio/img4.jpg') no-repeat;
+}
+
+.album li#foto08 {
+    background: url('/img/portfolio/img5.jpg') no-repeat;
+}
+
+.album li#foto09 {
+    background: url('/img/portfolio/img6.jpg') no-repeat;
+}
+
+/*.album li span{
+     Esconde a legenda 
     opacity: 0;
 }
 
-.album-subcont li span:hover{
-    /* Mostra a legenda ao passar o mouse por cima */
+.album li span:hover{
+     Mostra a legenda ao passar o mouse por cima 
     opacity: 1;
+}*/
+
+.headear{
+    border: 1px solid black;
 }
 
 hgroup h3 {
@@ -142,14 +172,14 @@ hgroup h3 {
     margin-left: -90px;
 }
 
-hgroup h4 {
+hgroup.subcont p {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     margin-top: auto;
     margin-left: -90px;
 }
 
-hgroup.subconth{
+hgroup.subconth {
     margin-top: 300px;
 }
 
@@ -162,30 +192,6 @@ hgroup.subconth{
     width: 100%;
     height: 1000px;
     justify-content: space-around;
-}
-
-.h1-port {
-    padding-top: 50px;
-}
-
-.img-port1 {
-    width: 450px;
-    height: 350px;
-    display: inline-block;
-    margin-top: -40px;
-}
-
-.img-port2 {
-    width: 500px;
-    height: 350px;
-    display: inline-block;
-}
-
-
-.img-port3 {
-    width: 350px;
-    height: 350px;
-    display: inline-block;
 }
 
 #clients,
@@ -224,6 +230,7 @@ hgroup.subconth{
 
 #clients {
     width: 100%;
+    height: 700px;
     background-color: #ded7d7;
 }
 
@@ -291,7 +298,7 @@ hgroup.subconth{
     display: inline-block;
     width: 400px;
     height: 400px;
-    margin-top: 100px;
+    
 }
 
 /*Footer - Rodapé*/
@@ -308,7 +315,7 @@ hgroup.subconth{
     width: 33.33%;
     margin: 50px;
     font-size: 10pt;
-    
+
 }
 
 article {
