@@ -291,7 +291,7 @@ article.art-rodape {
 form#contato,input[type=email]
 form#contato,input[type=tel]
 {
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    /*Para ter certeza que todas as labels te  o mesmo tamanho e estão propriamente alinhadas */
     height: 20px;
     text-align: left;
     color: #5f7c8a;
