@@ -2,9 +2,9 @@
 
 
 /* Formatações gerais */
-* {
-    font-family: 'Montserrat', sans-serif;
-}
+
+* {margin: 0;padding: 0;box-sizing: border-box;}
+
 
 /* Todos hgroup com class titulo1 ficarão centralizados*/
 * hgroup.titulo1 {
@@ -12,19 +12,19 @@
 }
 
 div#interface{
-    width: 100%;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     display: block;
 }
 
 /*Menu Flutuando fixo*/
 
 nav#menu {
-    background-color: #ff6f09;
+    background-color: #ed0909;
     width: 100%;
     top: 0%;
     position: fixed;
-    box-shadow: 1px 3px rgba(0, 0, 0, .4);
+    box-shadow: 1px 2px rgba(0, 0, 0, .4);
+    
 }
 
 nav#menu ul {
@@ -32,9 +32,10 @@ nav#menu ul {
     text-transform: uppercase;
     font-size: larger;
     font-weight: bolder;
-    top: 0;
-    left: 550px ;
     position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* alinahndo os icones do menu */
@@ -52,7 +53,7 @@ nav#menu li a {
 }
 
 nav#menu li:hover {
-    background-color: #d06c20;
+    background-color: #3c3129;
     transition: 0.8s;
 }
 
@@ -60,12 +61,12 @@ nav#menu li:hover {
 
 .container {
     text-align: center;
-    background-color: rgba(10, 10, 93, 0.927);
+    background-color:#5f7c8a;
     height: 600px;
     width: 100%;
     letter-spacing: 3px;
     margin-top: 85px;
-    border: 1px solid #CCC;
+    
 }
 
 .content-top {
@@ -82,7 +83,7 @@ nav#menu li:hover {
     text-align: center;
     width: 100%;
     height: 700px;
-    border: 1px solid #CCC;
+    
 }
 
 ul#album-subcont {
@@ -104,15 +105,15 @@ ul#album-subcont {
 
 
 .album li#foto01 {
-    background: url('/img/services/responsive.png') no-repeat;
+    background: url('/img/meme.jpg') no-repeat;
 }
 
 .album li#foto02 {
-    background: url('/img/services/bs3.png') no-repeat;
+    background: url('/img/meme.jpg') no-repeat;
 }
 
 .album li#foto03 {
-    background: url('/img/services/free.png') no-repeat;
+    background: url('/img/meme.jpg') no-repeat;
 }
 
 .headear{
@@ -145,7 +146,7 @@ hgroup.subconth {
 /*Portfolio*/
 
 #portfolio {
-    background-color: #ed0909;
+    background-color: #5f7c8a;
     text-align: center;
     width: 100%;
     height: 700px;
@@ -154,27 +155,27 @@ hgroup.subconth {
 }
 
 .album li#foto04 {
-    background: url('/img/portfolio/img1.jpg') no-repeat;
+    background: url('/img/meme.jpg') no-repeat;
 }
 
 .album li#foto05 {
-    background: url('/img/portfolio/img2.jpg') no-repeat;
+    background: url('/img/meme.jpg') no-repeat;
 }
 
 .album li#foto06 {
-    background: url('/img/portfolio/img3.jpg') no-repeat;
+    background: url('/img/meme.jpg') no-repeat;
 }
 
 .album li#foto07 {
-    background: url('/img/portfolio/img4.jpg') no-repeat;
+    background: url('/img/meme.jpg') no-repeat;
 }
 
 .album li#foto08 {
-    background: url('/img/portfolio/img5.jpg') no-repeat;
+    background: url('/img/meme.jpg') no-repeat;
 }
 
 .album li#foto09 {
-    background: url('/img/portfolio/img6.jpg') no-repeat;
+    background: url('/img/meme.jpg') no-repeat;
 }
 
 /* Clients */
@@ -233,8 +234,7 @@ div#clients{
     text-align: center;
     width: 100%;
     height: 700px;
-    background-color: rgba(10, 10, 93, 0.927);
-    border: 1px solid black;
+    background-color: #5f7c8a;
 }
 
 hgroup#menu-sobre {
@@ -254,16 +254,16 @@ hgroup#menu-sobre {
     width: 400px;
     height: 400px;
     margin: 0px auto;
-    margin-top: 10  0px;
+    margin-top: 50px;
 }
 
 /*Footer - Rodapé*/
 
 .rodape-final {
-    background-color: #d3d3d3;
+    background-color: #615a5a;
     color: white;
     display: flex;
-    height: 500px;
+    height: 350px;
 }
 
 .art-rodape {
@@ -274,23 +274,33 @@ hgroup#menu-sobre {
 
 }
 
-article {
+article.art-rodape {
     /* Apenas para centralizar o texto na página */
     margin: 0 auto;
     width: 400px;
     /* Para ver as bordas do formulário */
     padding: 1em;
-    border: 1px solid #CCC;
+    border: 1px solid rgb(121, 110, 110);
     border-radius: 1em;
     /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
     display: inline-block;
-    width: 90px;
-    text-align: right;
+    text-align: center;
 }
 
-label {
+
+form#contato,input[type=email]
+form#contato,input[type=tel]
+{
     /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
-    display: inline-block;
-    width: 90px;
-    text-align: right;
+    height: 20px;
+    text-align: left;
+    color: #5f7c8a;
+    margin: 2px 0;
+}
+form#contato,input[type=text]{
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    height: 20px;
+    text-align: left;
+    color: #5f7c8a;
+    margin: 2px 0;
 }

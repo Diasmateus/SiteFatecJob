@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fatec Osasco</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/script.css">
+<script>
+
+</script>
+
 </head>
 
 <body>
@@ -150,7 +155,7 @@
 
             <hgroup  class="titulo1" id="menu-sobre">
                 <h1>About us</h1>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, suscipit. Con</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, suscipit. Con</p>
             </hgroup>
 
             <div id="text-content">
@@ -235,31 +240,18 @@
 
             <article class="art-rodape">
 
-                <h1  class="titulo1">Contact Us</h1>
+                <h1 style="text-align: center;" class="titulo1">Contact Us</h1>
                 <br><br>
 
-                <form class="padrao" action="">
-                    <div>
-                        <label for="nome" id="nome">Nome: </label>
-                        <input type="text" id="nome">
-                    </div>
-                    <div>
-                        <label for="email" id="email">E-mail: </label>
-                        <input type="email" id="nome">
-                    </div>
-                    <div>
-                        <label for="telefone" id="telefone">Telefone: </label>
-                        <input type="tel" id="telefone">
-                    </div>
-                    <div>
+                <form id="contato">
+                   
+                        <input type="text" id="nome" placeholder="Nome"><br>
+                        <input type="email" id="email" placeholder="E-mail"><br>
+                        <input type="tel" id="telefone" placeholder="Telefone">
                         <br>
-                        <label for="descricao" id="descricao" aria-placeholder="Escreva sua dúvida aqui!"></label>
-                        <br>
-                        <textarea name="descricao" id="descricao" cols="40" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <button class="button">Enviar</button>
-                    </div>
+                        <textarea name="descricao" id="descricao" cols="40" rows="10"></textarea><br>
+                        <input type="submit" name="botao" value="Enviar">
+                    
                 </form>
             </article>
 
