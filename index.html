@@ -7,15 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fatec Osasco</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/script.css">
-<script>
-
-</script>
 
 </head>
 
 <body>
 
+
+    <script>
+        var nome = document.getElementById('nome');
+        var email = document.getElementById('email');
+        var telefone = document.getElementById('telefone');
+    
+        nome.addEventListener('focus',()=>{
+            nome.style.borderColor = "#4a5f6a";
+             
+        });
+        nome.addEventListener('blur',()=>{
+            nome.style.borderColor = "#ccc";
+        });
+
+        email.addEventListener('focus',()=>{
+            email.style.borderColor = "#4a5f6a";
+             
+        });
+        email.addEventListener('blur',()=>{
+            email.style.borderColor = "#ccc";
+        });
+
+        telefone.addEventListener('focus',()=>{
+            telefone.style.borderColor = "#4a5f6a";
+             
+        });
+        telefone.addEventListener('blur',()=>{
+            telefone.style.borderColor = "#ccc";
+        });
+
+    </script>
     <!---Menu-->
     <div id="interface">
         
@@ -246,7 +273,7 @@
                 <form id="contato">
                    
                         <input type="text" id="nome" placeholder="Nome"><br>
-                        <input type="email" id="email" placeholder="E-mail"><br>
+                        <input type="emai" id="email" placeholder="E-mail"><br>
                         <input type="tel" id="telefone" placeholder="Telefone">
                         <br>
                         <textarea name="descricao" id="descricao" cols="40" rows="10"></textarea><br>

@@ -288,8 +288,9 @@ article.art-rodape {
 }
 
 
-form#contato,input[type=email]
-form#contato,input[type=tel]
+form#contato, input[type=email],
+form#contato, input[type=tel],
+form#contato, input[type=text]
 {
     /*Para ter certeza que todas as labels te so mesmo tamanho e estão propriamente alinhadas */
     height: 20px;
@@ -297,10 +298,12 @@ form#contato,input[type=tel]
     color: #5f7c8a;
     margin: 2px 0;
 }
-form#contato,input[type=text]{
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
-    height: 20px;
-    text-align: left;
-    color: #5f7c8a;
-    margin: 2px 0;
+
+form#contato, input[type=email]:focus,
+form#contato, input[type=tel]:focus,
+form#contato, input[type=text]:focus
+{   
+    outline: 0;
 }
+
+
