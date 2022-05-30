@@ -9,6 +9,7 @@
 /* Todos hgroup com class titulo1 ficarão centralizados*/
 * hgroup.titulo1 {
     text-align: center;
+    margin-bottom: 65px;
 }
 
 div#interface{
@@ -257,13 +258,13 @@ hgroup#menu-sobre {
     margin-top: 50px;
 }
 
-/*Footer - Rodapé*/
+/*Footer - Contate-nos*/
 
 .rodape-final {
     background-color: #615a5a;
     color: white;
     display: flex;
-    height: 350px;
+    height: 450px;
 }
 
 .art-rodape {
@@ -288,15 +289,28 @@ article.art-rodape {
 }
 
 
+form#contato, input[type=text],
 form#contato, input[type=email],
 form#contato, input[type=tel],
-form#contato, input[type=text]
+form#contato, input[type=submit]
 {
     /*Para ter certeza que todas as labels te so mesmo tamanho e estão propriamente alinhadas */
+    padding: 10px;
     height: 20px;
     text-align: left;
     color: #5f7c8a;
     margin: 2px 0;
+}
+
+form#contato, input[type=submit]
+{
+    /*Para ter certeza que todas as labels te so mesmo tamanho e estão propriamente alinhadas */
+    padding: 10px;
+    height: auto;
+    margin: auto;
+    text-align: left;
+    color: #5f7c8a;
+    
 }
 
 form#contato, input[type=email]:focus,
